@@ -1,4 +1,4 @@
-## CC P2 - Prime Generator
+## CC P3 - Closing The Tweet
 
 ### Problem Statement
 
