@@ -23,6 +23,7 @@ Many people when seeing this problem will do the following **Mistakes**:
 - Finding All Possible Combinations (Exhaustive Search)
 - Diving Problems in Set Notation
 - Solving using Factorial (C++, C)
+- Using **int** datatype
 
 This problem is of selecting in such a way that we have all colored marbles in our possession despite the order (Mathematical Topic: [Combinations](https://en.wikipedia.org/wiki/Combination))
 
@@ -35,6 +36,7 @@ This problem is of selecting in such a way that we have all colored marbles in o
 ![Combination2](https://wikimedia.org/api/rest_v1/media/math/render/svg/0f4e3f6d2dc3075f5569c82118fad11c32dff393)
 
 - Solution for 52C5
+
 ![Solution](https://wikimedia.org/api/rest_v1/media/math/render/svg/cc23290c935c895f42918bf2486ec5e8b70045bd)
 
 ### Problem Solving
@@ -73,6 +75,6 @@ printf("%llu\n", ncr(n-1,k-1));
 - **Correct Answer**
 - Codechef solution ID: 12087067
 - Codechef solution link: https://www.codechef.com/viewsolution/12087067
-- Time taken: 0.81sec
+- Time taken: 0sec
 - Memory Allocated: 3.1MB
 - Language: C++ 4.9.2
