@@ -49,7 +49,7 @@ if ( op=="CLICK" ) { ... }
 else { ... } 
 ```
 
-Finally We need to check the state of the tweet
+Finally We need to check the state of the tweet and alter it 
 
 ```C++
 scanf("%d", &index); // Tweet Number
@@ -61,6 +61,12 @@ if ( !arr[index-1] ) { // Closed Tweet
     count--;
     arr[index-1] = false;
 }
+```
+
+and close all tweets for CLOSE ALL
+```C++
+count = 0;
+REPN(j,0,n) arr[j] = false;
 ```
 
 ### Verdict
