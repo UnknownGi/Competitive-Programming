@@ -22,6 +22,7 @@ Many people when seeing this problem will do the following **Mistakes**:
 
 - Finding All Possible Combinations (Exhaustive Search)
 - Diving Problems in Set Notation
+- Solving using Factorial (C++, C)
 
 This problem is of selecting in such a way that we have all colored marbles in our possession despite the order (Mathematical Topic: [Combinations](https://en.wikipedia.org/wiki/Combination))
 
