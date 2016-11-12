@@ -24,7 +24,7 @@ Many people when seeing this problem will do the following **Mistakes**:
 - check even numbers for prime
 - increment count by 1
 
-The problem asks us to print prime numbers in a given range, this problem can be solved using Euclidean style or [!Sieve of Eratosthesis](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+The problem asks us to print prime numbers in a given range, this problem can be solved using Euclidean style or [Sieve of Eratosthesis](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
 - Animation for Sieve
 
@@ -40,7 +40,7 @@ func ifPrime(n):
     output: true/false
 ```
 
-The function would if a given number is prime using the following condition, Here we deal with the increment and complete range checking problem, while checking from in between **3 ≤ x ≤ sqrt(n)** we decrease the complexity from **O(n)** to **O(n^1/2)**
+The function would check if a given number is prime using the following condition, Here we deal with the increment and complete range checking problem, while checking from in between **3 ≤ x ≤ sqrt(n)** we decrease the complexity drastically from **O(n)** to **O(n^1/2)**
 
 
 ```C++
@@ -55,6 +55,8 @@ Finally we deal with extra values such as even numbers and 1.
 if ( n==2 ) return true;
 else if ( n%2==0 || n==1 ) return false;
 ```
+
+We can check for negative values as well but our constaints only deal with positive values
 
 ### Verdict
 
