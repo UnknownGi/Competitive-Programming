@@ -26,26 +26,28 @@ Memory Limit: 50 MB
 Many people when seeing this problem will do the following **Mistakes**: 
 
 - compare **(n/2)+(n/3)+(n/4)** with **n**
-- recompute **n** which has been recomputed before
+- recompute **n** which has been computed before
 
-The problem asks us to generate 3 coins (n/2, n/3, n/4) from n, and if n is lesser than the generated coins we keep them. We must then check if the ones from generated coins can generate more coins further with better values, hence Recurrence Relation. The diagram shows and overhaul of what is happening to our problem.
+The problem asks us to generate 3 coins (n/2, n/3, n/4) from n, and if n is lesser than the generated coins, we keep the generated coins. We must then check if the ones from generated coins can generate more coins further with better values, hence Recurrence Relation. The diagram shows and overhaul of what is happening to our problem.
 
 ![Image](http://i.imgur.com/Dq65cAh.png)
+
+The first path is compulsory because without generating any values, we will never be sure if we will generate a better value than the current one.
 
 ### Problem Solving
 
 First we need to create is a recursive function:
 
 ```
-func solve(n): 
+func max(n): 
     input: n
-    output: max(n, solve(n/2)+solve(n/3)+solve(n/4))
+    output: maxValue(n, max(n/2)+max(n/3)+max(n/4))
 ```
 
 The function would check whether the values of the generated coins are maximum or not
 
 ```C++
-    LLD m = max(n, max(n/2)+max(n/3)+max(n/4));
+    LLD m = std::max(n, max(n/2)+max(n/3)+max(n/4)); // The first max param belongs to std::max from algorithms
 ```
 
 And finally we need to keep track of the previously generated coins, so that we do not waste our precious cycles in recursive problems. We use a **map** (hash) to handle this problem.
@@ -57,3 +59,12 @@ mem[n] = m; // inserting a new value in map
 
 mem.count(n) return mem[n]; // checking if values exists in a map and then returning it directly
 ```
+
+### Verdict
+
+- **Correct Answer**
+- Codechef solution ID: 12085560
+- Codechef solution link: https://www.codechef.com/viewsolution/12085560
+- Time taken: 0sec
+- Memory Allocated: 3.2MB
+- Language: C++ 4.9.2
