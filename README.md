@@ -9,25 +9,27 @@ This repository contains codes and tricks for implementing questions available o
 - Hackerrank: https://www.hackerrank.com/
 - ProjectEuler: http://projecteuler.net/
 
-some other sites may exists, those will be added later on. 
+I will also be implementing codes for 
+- **Data Structures** (Tree, B-Tree, Graph, etc..)
+- **Algorithms** (Sorting, String Matching, Number Theory, etc..)
 
-### About the Code
+### Code in This Repo
 
 The code will be written in **C++** (preffered) else **Java** (for BigInteger mostly).
 
-A predecessor template will be uploaded for C++, which will have many code built into it.
+### Repository Directory Tree
 
-### About the Book
+This Repository is divided into the following:
 
-The book is named **Introduction to Algorithm - 2nd Edition**, writted by Thomas H. Cormen, Charles E. Leicerson, Ronald L. Rivest and Clifford Stein.
-
-It explains the fundamental and advanced concepts for creating and building optimized algorithms. 
-
-It would be a great help if people can go through this book before solving any problem.
-
-### Implementation - Topic
-
-This section covers the implementation and description about core topics linking to problem solving in competitive programming.
+1. Algorithm (Implementation of Specific Algorithms)
+2. Data Structure (Implementation of Specific Data Structure with Insert/Update/Delete/.. Operations)
+3. Solution
+    1. Hackerrank (Solutions for Hackerrank Directories)
+    2. Codechef (Solution for Codechef Directories)
+    3. Codejam (Google Codejam Solutions)
+    4. ProjectEuler (Mathematical Solutions)
+    
+**NOTE:** Each solution file will contain a ***README.md*** file that will dictate about how I solved a particular problem.
 
 ### About Me
 
