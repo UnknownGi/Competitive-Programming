@@ -31,7 +31,8 @@ This problem asks us to check number of factors that can exists for a particular
 This problem can be solved by individually finding the factors for each Ai element that is a product of N. According to the Divisor Function we would generate the same number of factors using this property.
 
 Ex: 504 = 2^***3*** * 3^***2*** * 7^***1***
-Therefore (3+1)*(2+1)*(1+1) = 24
+
+Therefore (3+1) x (2+1) x (1+1) = 24 
 
 504 has **24 factors**
 
@@ -41,8 +42,8 @@ The problem is solved finding factors of individual elements Ai
 
 ```C++
 REPN(i,0,n) {
-    scanf("%lld", &tmp);
-    factor(tmp);
+    scanf("%lld", &Ai);
+    factor(Ai);
 }
 ```
 
@@ -73,6 +74,12 @@ and finally find the number of divisors with the help or map/set
 ```C++
 LLD fact=1;
 for ( it=mp.begin(); it!=mp.end(); ++it ) fact *= (it->second+1);
+```
+
+Make sure to clear the map/set if they are set to global
+
+```C++
+mp.clear();
 ```
 
 ### Verdict
