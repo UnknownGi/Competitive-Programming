@@ -32,8 +32,10 @@ Many people when seeing this problem will do the following **Mistakes**:
 
 This question allows us to view a pattern in the test cases, first zero appears in 5! then 6! and so forth that mean, Z(N-1) ≤ Z(N) where Z(n) = no.of zeroes in number n. Therefore following this pattern we obtained the following:
 
+```
 ###WHILE N >= 5
 ###    Zeroes += N/5, N/=5
+```
 
 ### Problem Solving
 
