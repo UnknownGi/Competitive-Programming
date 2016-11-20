@@ -1,10 +1,10 @@
 ## Greatest Common Divisor
 
-### - Description
+### 1. Description
 
 In *mathematics*, **the greatest common divisor (gcd)** of two or more integers, when at least one of them is not zero, is the largest positive integer that divides the numbers without a remainder. For example, the GCD of 8 and 12 is 4.
 
-### - Complexity
+### 2. Complexity
 
 - Worst Case Complexity
 
@@ -14,7 +14,7 @@ In *mathematics*, **the greatest common divisor (gcd)** of two or more integers,
 
 ![euclidcomplexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/09792da35693cf604db188d0c2cc221818d72f87)
 
-### - Example
+### 3. Example
 
 - Divisors of 54: 
 
@@ -32,7 +32,7 @@ Therefore
 
 ![gcd](https://wikimedia.org/api/rest_v1/media/math/render/svg/9998f8681384fe60dc94832a9a0ba19769dccbfb)
 
-### - Euclidean Function
+### 4. Euclidean Function
 
 - Euclidean function provided a recursive way of computing gcd as:
 
@@ -53,7 +53,7 @@ int gcd(a, b) {
 }
 ```
 
-### - Pseudocode
+### 5. Pseudocode
 
 This is the basic logic behind gcd:
 
@@ -74,6 +74,6 @@ Output: g and d such that g is odd and gcd(a, b) = g×2^d
     output g, d
 ```
 
-### - Reference
+### 6. Reference
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Greatest_common_divisor)
