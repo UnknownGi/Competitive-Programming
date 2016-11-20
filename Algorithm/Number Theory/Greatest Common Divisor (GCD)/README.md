@@ -6,27 +6,17 @@ In *mathematics*, **the greatest common divisor (gcd)** of two or more integers,
 
 ### 2. Complexity
 
-- Worst Case Complexity
+- Worst Case Complexity: ![runningtime](https://wikimedia.org/api/rest_v1/media/math/render/svg/56389040bb6243447d5114e18bcb432645d66c99)
 
-![runningtime](https://wikimedia.org/api/rest_v1/media/math/render/svg/56389040bb6243447d5114e18bcb432645d66c99)
-
-- Worst Case Complexity Euclide
-
-![euclidcomplexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/09792da35693cf604db188d0c2cc221818d72f87)
+- Worst Case Complexity Euclide: ![euclidcomplexity](https://wikimedia.org/api/rest_v1/media/math/render/svg/09792da35693cf604db188d0c2cc221818d72f87)
 
 ### 3. Example
 
-- Divisors of 54: 
+- Divisors of 54: ![Divisor54](https://wikimedia.org/api/rest_v1/media/math/render/svg/40a2d18005f4555de941921b8486c24e2d396f48)
 
-![Divisor54](https://wikimedia.org/api/rest_v1/media/math/render/svg/40a2d18005f4555de941921b8486c24e2d396f48)
+- Divisor of 24: ![Divisor24](https://wikimedia.org/api/rest_v1/media/math/render/svg/a0aa699552b24cd17f0a65979370b7c3c4bb216d)
 
-- Divisor of 24: 
-
-![Divisor24](https://wikimedia.org/api/rest_v1/media/math/render/svg/a0aa699552b24cd17f0a65979370b7c3c4bb216d)
-
-- Common Divisors between 24 and 54: 
-
-![Common](https://wikimedia.org/api/rest_v1/media/math/render/svg/83ddc330c52f384ed6ac503d6bbc2f30081b1f7b)
+- Common Divisors between 24 and 54: ![Common](https://wikimedia.org/api/rest_v1/media/math/render/svg/83ddc330c52f384ed6ac503d6bbc2f30081b1f7b)
 
 Therefore 
 
